@@ -1,0 +1,66 @@
+{
+  "name": "lumenette",
+  "app-title": "Lumenette",
+  "app-env": "dev",
+  "version": "1.7.2",
+  "private": true,
+  "scripts": {
+    "start": "react-native start",
+    "set-env": "node ./scripts/set-env",
+    "setup-coffee-shop": "node ./scripts/setup-coffee-shop",
+    "ngrok": "ngrok http 8081",
+    "setup-prod": " yarn set-env prod",
+    "ios-sim": "react-native run-ios",
+    "android-dev": "react-native run-android",
+    "android-dev-menu": "adb shell input keyevent KEYCODE_MENU",
+    "android-prod-run": "react-native run-android --variant=release",
+    "android-prod-build": "cd android && ./gradlew assembleRelease",
+    "test": "node node_modules/jest/bin/jest.js",
+    "clear":
+      "watchman watch-del-all && rm -rf $TMPDIR/react-* && rm -rf node_modules/ && yarn cache clean && yarn"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "dependencies": {
+    "bignumber.js": "5.0.0",
+    "date-fns": "1.29.0",
+    "graphql": "0.13.0",
+    "graphql-tag": "2.7.3",
+    "lottie-react-native": "2.2.7",
+    "phone": "2.0.0-rc.1",
+    "react": "16.2.0",
+    "react-native": "0.53.0",
+    "react-native-contacts": "2.1.1",
+    "react-native-device-info": "0.15.1",
+    "react-native-dotenv": "0.1.1",
+    "react-native-keyboard-aware-scroll-view": "0.4.3",
+    "react-native-keychain": "2.0.0",
+    "react-native-root-toast": "3.0.1",
+    "react-native-sentry": "0.33.0",
+    "react-native-splash-screen": "3.0.6",
+    "react-native-swiper": "1.5.13",
+    "react-native-touch-id": "4.0.0",
+    "react-redux": "5.0.6",
+    "react-router-native": "4.2.0",
+    "redux": "3.7.2",
+    "redux-thunk": "2.2.0",
+    "reselect": "3.0.1",
+    "shallowequal": "1.0.2",
+    "uuid": "3.2.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "8.2.1",
+    "babel-preset-react-native": "4.0.0",
+    "eslint": "4.17.0",
+    "eslint-plugin-babel": "4.1.2",
+    "eslint-plugin-react": "7.6.1",
+    "jest-react-native": "18.0.0",
+    "minimist": "1.2.0",
+    "react-test-renderer": "16.2.0",
+    "rimraf": "2.6.2"
+  },
+  "rnpm": {
+    "assets": ["./app/assets/fonts/"]
+  }
+}

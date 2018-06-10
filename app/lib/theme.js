@@ -1,0 +1,27 @@
+export default {
+  colorBlue: '#2EA2DB',
+  colorMedBlue: '#0079B4',
+  colorDarkBlue: '#124057',
+  colorLightBorder: '#E8EAED',
+  colorRed: '#F16051',
+  colorGreen: '#2ECC40',
+  colorOrange: '#FDBF5E',
+  colorPlaceholder: '#8C9AA8',
+  colorBodyCopy: '#7A7A7A',
+  colorCoolBg: '#F6F6F6',
+  colorSectionDivider: '#F0EFF0',
+
+  // colorDark: '#2D605B',
+  // colorLight: '#72CEC6',
+  // colorLightBody: '#81A09D',
+  // colorBorder: '#EAEAEA',
+  // colorRed: '#E01E36',
+  // colorGreen: '#2ECC40',
+  // fontLight: 'Montserrat-Light',
+  fontBodyRegular: 'Hind-Regular',
+  fontBodyMedium: 'Hind-Medium',
+  fontBodyBold: 'Hind-Bold',
+  fontBold: 'Montserrat-Bold',
+  fontRegular: 'Montserrat-Regular',
+  fontLight: 'Montserrat-Light'
+};
