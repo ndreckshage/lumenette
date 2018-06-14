@@ -1,18 +1,9 @@
-# Lumenette
+# Source code for legacy lumenette app
 
-## iOS Deploy
+- react native app for ios / android
+- mobile wallet that lets user send stellar lumen to anyone on their contact list by email / sms
+- likely only components of interest for those building a react native mobile wallet for stellar https://github.com/ndreckshage/lumenette/blob/master/app/components/stellar/StellarInterop.js
 
-* `yarn prod-ios-prep`
-* select device in xcode, build
-* product -> archive -> upload to app store
-* complete deploy via itunes connect
+if you have questions, open an issue, and i will try and help you out.
 
-## iOS Local Prod Bundle
-
-* window -> organizer -> export development
-* window -> devices & simulators -> drag ipa to device
-
-## Android Deploy
-
-* `yarn prod-android-build`
-* Open play console, upload package, complete rollout.
+this repo will not be maintained and should only be used as a reference
